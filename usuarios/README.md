@@ -1,16 +1,41 @@
-# React + Vite
+# Usuarios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este directorio contiene el frontend del proyecto RegistorLoginPerfil, desarrollado con React y Vite.
 
-Currently, two official plugins are available:
+## ¿Qué incluye?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La interfaz permite a los usuarios:
 
-## React Compiler
+- registrarse en la aplicación;
+- iniciar sesión con correo y contraseña;
+- ver y gestionar su perfil.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías usadas
 
-## Expanding the ESLint configuration
+- React
+- React Router DOM
+- Vite
+- CSS para estilos de las páginas de autenticación y perfil
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+
+```bash
+npm install
+npm run dev
+```
+
+## Scripts disponibles
+
+- npm run dev: inicia el proyecto en modo desarrollo
+- npm run build: genera la versión lista para producción
+- npm run preview: previsualiza la compilación
+
+## ¿Qué aprendí?
+
+Durante el desarrollo de esta parte aprendí a:
+
+- crear interfaces de autenticación con React;
+- manejar formularios y validaciones en el frontend;
+- trabajar con rutas y navegación entre páginas;
+- conectar la interfaz con un backend mediante peticiones HTTP;
+- gestionar estados de carga y errores en la experiencia de usuario.
